@@ -16,8 +16,8 @@
 		76EDF5691B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5681B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m */; };
 		76EDF5CF1B37DD6F00297A39 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5CE1B37DD6F00297A39 /* WebGatewayViewController.m */; };
 		76EDF5D01B37DD6F00297A39 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5CE1B37DD6F00297A39 /* WebGatewayViewController.m */; };
-		76EDF6291B37F41700297A39 /* libCTS iOS SDK Lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EDF6211B37F41700297A39 /* libCTS iOS SDK Lib.a */; };
-		76EDF62A1B37F41700297A39 /* libCTS iOS SDK Lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EDF6211B37F41700297A39 /* libCTS iOS SDK Lib.a */; };
+		76EDF7C31B38388400297A39 /* libCitrusPayMobileDevKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EDF7C21B38388400297A39 /* libCitrusPayMobileDevKit.a */; };
+		76EDF7C41B38388400297A39 /* libCitrusPayMobileDevKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EDF7C21B38388400297A39 /* libCitrusPayMobileDevKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,7 +126,6 @@
 		76EDF61E1B37F41700297A39 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
 		76EDF61F1B37F41700297A39 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
 		76EDF6201B37F41700297A39 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
-		76EDF6211B37F41700297A39 /* libCTS iOS SDK Lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCTS iOS SDK Lib.a"; sourceTree = "<group>"; };
 		76EDF6221B37F41700297A39 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
 		76EDF6231B37F41700297A39 /* OauthStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OauthStatus.h; sourceTree = "<group>"; };
 		76EDF6241B37F41700297A39 /* PayLoadWebviewDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayLoadWebviewDto.h; sourceTree = "<group>"; };
@@ -134,6 +133,7 @@
 		76EDF6261B37F41700297A39 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
 		76EDF6271B37F41700297A39 /* UserLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogging.h; sourceTree = "<group>"; };
 		76EDF6281B37F41700297A39 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		76EDF7C21B38388400297A39 /* libCitrusPayMobileDevKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCitrusPayMobileDevKit.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EDF6291B37F41700297A39 /* libCTS iOS SDK Lib.a in Frameworks */,
+				76EDF7C31B38388400297A39 /* libCitrusPayMobileDevKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EDF62A1B37F41700297A39 /* libCTS iOS SDK Lib.a in Frameworks */,
+				76EDF7C41B38388400297A39 /* libCitrusPayMobileDevKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,8 +222,8 @@
 		76EDF5D11B37F41700297A39 /* CitrusPayMobileDevKit */ = {
 			isa = PBXGroup;
 			children = (
+				76EDF7C21B38388400297A39 /* libCitrusPayMobileDevKit.a */,
 				76EDF6281B37F41700297A39 /* Version.h */,
-				76EDF6211B37F41700297A39 /* libCTS iOS SDK Lib.a */,
 				76EDF5D21B37F41700297A39 /* CitrusCashRes.h */,
 				76EDF5D31B37F41700297A39 /* CitrusSdk.h */,
 				76EDF5D41B37F41700297A39 /* CreditCard-Validator.h */,
@@ -550,6 +550,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
+					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -566,6 +567,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
+					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -589,6 +591,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
+					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitrusPay-iOS-SDK-Sample-App.app/CitrusPay-iOS-SDK-Sample-App";
@@ -608,6 +611,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
+					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitrusPay-iOS-SDK-Sample-App.app/CitrusPay-iOS-SDK-Sample-App";
