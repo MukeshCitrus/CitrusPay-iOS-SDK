@@ -31,8 +31,11 @@
 #pragma mark - initializers
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     [self initializeLayers];
-    self.title = @"Citrus iOS SDK";
+    self.title = @"CitrusPay iOS Native Payment SDK Kit";
+    
+//    [self deleteCard];
 }
 
 -(void)initializeLayers{
@@ -153,6 +156,26 @@
         }
     }];
 }
+
+
+// delete the card.
+-(IBAction)deleteCard{
+    
+    NSString *lastFourDigitsOfCard = @"8001";
+    
+    // Configure your request here.
+    [proifleLayer requestDeleteCard:lastFourDigitsOfCard scheme:[CTSUtility fetchCardSchemeForCardNumber:TEST_CREDIT_CARD_NUMBER] withCompletionHandler:^(NSError *error) {
+        if(error == nil){
+            // Your code to handle success.
+            [UIUtility toastMessageOnScreen:@" succesfully card deleted "];
+        }
+        else {
+            // Your code to handle error.
+            [UIUtility toastMessageOnScreen:[NSString stringWithFormat:@" couldn't delete card\n error: %@",toErrorDescription(error)]];
+        }
+    }];
+}
+
 
 // Get the bind user cards.
 -(IBAction)getSavedCards:(id)sender{

@@ -2,7 +2,7 @@
 //  CitrusPay_iOS_SDK_Sample_AppTests.m
 //  CitrusPay-iOS-SDK-Sample-AppTests
 //
-//  Created by Mukesh Patil on 22/06/15.
+//  Created by Mukesh Patil on 27/07/15.
 //  Copyright (c) 2015 CitrusPay. All rights reserved.
 //
 

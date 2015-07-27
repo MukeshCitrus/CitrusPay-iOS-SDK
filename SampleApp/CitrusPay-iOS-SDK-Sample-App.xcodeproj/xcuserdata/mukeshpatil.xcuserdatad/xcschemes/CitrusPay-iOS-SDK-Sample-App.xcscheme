@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0640"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76EDF5481B37DC1800297A39"
+               BlueprintIdentifier = "76DD100F1B6657D500AA3EC8"
                BuildableName = "CitrusPay-iOS-SDK-Sample-App.app"
                BlueprintName = "CitrusPay-iOS-SDK-Sample-App"
                ReferencedContainer = "container:CitrusPay-iOS-SDK-Sample-App.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76EDF5611B37DC1900297A39"
+               BlueprintIdentifier = "76DD10281B6657D500AA3EC8"
                BuildableName = "CitrusPay-iOS-SDK-Sample-AppTests.xctest"
                BlueprintName = "CitrusPay-iOS-SDK-Sample-AppTests"
                ReferencedContainer = "container:CitrusPay-iOS-SDK-Sample-App.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "76EDF5611B37DC1900297A39"
+               BlueprintIdentifier = "76DD10281B6657D500AA3EC8"
                BuildableName = "CitrusPay-iOS-SDK-Sample-AppTests.xctest"
                BlueprintName = "CitrusPay-iOS-SDK-Sample-AppTests"
                ReferencedContainer = "container:CitrusPay-iOS-SDK-Sample-App.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76EDF5481B37DC1800297A39"
+            BlueprintIdentifier = "76DD100F1B6657D500AA3EC8"
             BuildableName = "CitrusPay-iOS-SDK-Sample-App.app"
             BlueprintName = "CitrusPay-iOS-SDK-Sample-App"
             ReferencedContainer = "container:CitrusPay-iOS-SDK-Sample-App.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76EDF5481B37DC1800297A39"
+            BlueprintIdentifier = "76DD100F1B6657D500AA3EC8"
             BuildableName = "CitrusPay-iOS-SDK-Sample-App.app"
             BlueprintName = "CitrusPay-iOS-SDK-Sample-App"
             ReferencedContainer = "container:CitrusPay-iOS-SDK-Sample-App.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "76EDF5481B37DC1800297A39"
+            BlueprintIdentifier = "76DD100F1B6657D500AA3EC8"
             BuildableName = "CitrusPay-iOS-SDK-Sample-App.app"
             BlueprintName = "CitrusPay-iOS-SDK-Sample-App"
             ReferencedContainer = "container:CitrusPay-iOS-SDK-Sample-App.xcodeproj">

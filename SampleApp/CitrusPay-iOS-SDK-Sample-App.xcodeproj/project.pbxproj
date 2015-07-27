@@ -7,144 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		76D49A161B3BF23E004393B7 /* libCitrusPayMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D49A151B3BF23E004393B7 /* libCitrusPayMobile.a */; };
-		76EDF54F1B37DC1800297A39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF54E1B37DC1800297A39 /* main.m */; };
-		76EDF5521B37DC1800297A39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5511B37DC1800297A39 /* AppDelegate.m */; };
-		76EDF5551B37DC1800297A39 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5541B37DC1800297A39 /* SampleViewController.m */; };
-		76EDF5581B37DC1800297A39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76EDF5561B37DC1800297A39 /* Main.storyboard */; };
-		76EDF55A1B37DC1900297A39 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76EDF5591B37DC1900297A39 /* Images.xcassets */; };
-		76EDF55D1B37DC1900297A39 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76EDF55B1B37DC1900297A39 /* LaunchScreen.xib */; };
-		76EDF5691B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5681B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m */; };
-		76EDF5CF1B37DD6F00297A39 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5CE1B37DD6F00297A39 /* WebGatewayViewController.m */; };
-		76EDF5D01B37DD6F00297A39 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76EDF5CE1B37DD6F00297A39 /* WebGatewayViewController.m */; };
+		76DD10161B6657D500AA3EC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DD10151B6657D500AA3EC8 /* main.m */; };
+		76DD10191B6657D500AA3EC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DD10181B6657D500AA3EC8 /* AppDelegate.m */; };
+		76DD101F1B6657D500AA3EC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DD101D1B6657D500AA3EC8 /* Main.storyboard */; };
+		76DD10211B6657D500AA3EC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DD10201B6657D500AA3EC8 /* Images.xcassets */; };
+		76DD10241B6657D500AA3EC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 76DD10221B6657D500AA3EC8 /* LaunchScreen.xib */; };
+		76DD10301B6657D500AA3EC8 /* CitrusPay_iOS_SDK_Sample_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DD102F1B6657D500AA3EC8 /* CitrusPay_iOS_SDK_Sample_AppTests.m */; };
+		76DD10A41B6657F100AA3EC8 /* libCitrusPayMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76DD10A31B6657F100AA3EC8 /* libCitrusPayMobile.a */; };
+		76DD10AA1B665A0700AA3EC8 /* SampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DD10A61B665A0700AA3EC8 /* SampleViewController.m */; };
+		76DD10AB1B665A0700AA3EC8 /* WebGatewayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DD10A91B665A0700AA3EC8 /* WebGatewayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		76EDF5631B37DC1900297A39 /* PBXContainerItemProxy */ = {
+		76DD102A1B6657D500AA3EC8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 76EDF5411B37DC1800297A39 /* Project object */;
+			containerPortal = 76DD10081B6657D500AA3EC8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 76EDF5481B37DC1800297A39;
+			remoteGlobalIDString = 76DD100F1B6657D500AA3EC8;
 			remoteInfo = "CitrusPay-iOS-SDK-Sample-App";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		76D49A151B3BF23E004393B7 /* libCitrusPayMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCitrusPayMobile.a; sourceTree = "<group>"; };
-		76EDF5491B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CitrusPay-iOS-SDK-Sample-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76EDF54D1B37DC1800297A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76EDF54E1B37DC1800297A39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		76EDF5501B37DC1800297A39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		76EDF5511B37DC1800297A39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		76EDF5531B37DC1800297A39 /* SampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
-		76EDF5541B37DC1800297A39 /* SampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
-		76EDF5571B37DC1800297A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		76EDF5591B37DC1900297A39 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		76EDF55C1B37DC1900297A39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		76EDF5621B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CitrusPay-iOS-SDK-Sample-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76EDF5671B37DC1900297A39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76EDF5681B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitrusPay_iOS_SDK_Sample_AppTests.m; sourceTree = "<group>"; };
-		76EDF5CC1B37DD6F00297A39 /* TestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestParams.h; sourceTree = "<group>"; };
-		76EDF5CD1B37DD6F00297A39 /* WebGatewayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGatewayViewController.h; sourceTree = "<group>"; };
-		76EDF5CE1B37DD6F00297A39 /* WebGatewayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGatewayViewController.m; sourceTree = "<group>"; };
-		76EDF5D21B37F41700297A39 /* CitrusCashRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusCashRes.h; sourceTree = "<group>"; };
-		76EDF5D31B37F41700297A39 /* CitrusSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusSdk.h; sourceTree = "<group>"; };
-		76EDF5D41B37F41700297A39 /* CreditCard-Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CreditCard-Validator.h"; sourceTree = "<group>"; };
-		76EDF5D51B37F41700297A39 /* CTSAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAmount.h; sourceTree = "<group>"; };
-		76EDF5D61B37F41700297A39 /* CTSAuthLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAuthLayer.h; sourceTree = "<group>"; };
-		76EDF5D71B37F41700297A39 /* CTSAuthLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAuthLayerConstants.h; sourceTree = "<group>"; };
-		76EDF5D81B37F41700297A39 /* CTSBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSBill.h; sourceTree = "<group>"; };
-		76EDF5D91B37F41700297A39 /* CTSCashoutBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCashoutBankAccount.h; sourceTree = "<group>"; };
-		76EDF5DA1B37F41700297A39 /* CTSCashoutBankAccountResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCashoutBankAccountResp.h; sourceTree = "<group>"; };
-		76EDF5DB1B37F41700297A39 /* CTSCashoutToBankRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCashoutToBankRes.h; sourceTree = "<group>"; };
-		76EDF5DC1B37F41700297A39 /* CTSContactUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSContactUpdate.h; sourceTree = "<group>"; };
-		76EDF5DD1B37F41700297A39 /* CTSCoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCoreProtocol.h; sourceTree = "<group>"; };
-		76EDF5DE1B37F41700297A39 /* CTSCreditCardOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCreditCardOption.h; sourceTree = "<group>"; };
-		76EDF5DF1B37F41700297A39 /* CTSDebitCardOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSDebitCardOption.h; sourceTree = "<group>"; };
-		76EDF5E01B37F41700297A39 /* CTSElectronicCardUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSElectronicCardUpdate.h; sourceTree = "<group>"; };
-		76EDF5E11B37F41700297A39 /* CTSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSError.h; sourceTree = "<group>"; };
-		76EDF5E21B37F41700297A39 /* CTSGetBalanceRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSGetBalanceRes.h; sourceTree = "<group>"; };
-		76EDF5E31B37F41700297A39 /* CTSGuestCheckout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSGuestCheckout.h; sourceTree = "<group>"; };
-		76EDF5E41B37F41700297A39 /* CTSLinkRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSLinkRes.h; sourceTree = "<group>"; };
-		76EDF5E51B37F41700297A39 /* CTSLinkUserRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSLinkUserRes.h; sourceTree = "<group>"; };
-		76EDF5E61B37F41700297A39 /* CTSNetbankingOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNetbankingOption.h; sourceTree = "<group>"; };
-		76EDF5E71B37F41700297A39 /* CTSNetBankingUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNetBankingUpdate.h; sourceTree = "<group>"; };
-		76EDF5E81B37F41700297A39 /* CTSNewContactProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNewContactProfile.h; sourceTree = "<group>"; };
-		76EDF5E91B37F41700297A39 /* CTSNewResponseDataProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNewResponseDataProfile.h; sourceTree = "<group>"; };
-		76EDF5EA1B37F41700297A39 /* CTSNewUserProfileReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNewUserProfileReq.h; sourceTree = "<group>"; };
-		76EDF5EB1B37F41700297A39 /* CTSOauthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSOauthManager.h; sourceTree = "<group>"; };
-		76EDF5EC1B37F41700297A39 /* CTSOauthTokenRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSOauthTokenRes.h; sourceTree = "<group>"; };
-		76EDF5ED1B37F41700297A39 /* CTSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSObject.h; sourceTree = "<group>"; };
-		76EDF5EE1B37F41700297A39 /* CTSPaymentDetailUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentDetailUpdate.h; sourceTree = "<group>"; };
-		76EDF5EF1B37F41700297A39 /* CTSPaymentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentLayer.h; sourceTree = "<group>"; };
-		76EDF5F01B37F41700297A39 /* CTSPaymentLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentLayerConstants.h; sourceTree = "<group>"; };
-		76EDF5F11B37F41700297A39 /* CTSPaymentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentMode.h; sourceTree = "<group>"; };
-		76EDF5F21B37F41700297A39 /* CTSPaymentNetbankingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentNetbankingRequest.h; sourceTree = "<group>"; };
-		76EDF5F31B37F41700297A39 /* CTSPaymentOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentOption.h; sourceTree = "<group>"; };
-		76EDF5F41B37F41700297A39 /* CTSPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentRequest.h; sourceTree = "<group>"; };
-		76EDF5F51B37F41700297A39 /* CTSPaymentRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentRes.h; sourceTree = "<group>"; };
-		76EDF5F61B37F41700297A39 /* CTSPaymentToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentToken.h; sourceTree = "<group>"; };
-		76EDF5F71B37F41700297A39 /* CTSPaymentTransactionRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentTransactionRes.h; sourceTree = "<group>"; };
-		76EDF5F81B37F41700297A39 /* CTSPaymentUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentUpdate.h; sourceTree = "<group>"; };
-		76EDF5F91B37F41700297A39 /* CTSPaymentWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentWebViewController.h; sourceTree = "<group>"; };
-		76EDF5FA1B37F41700297A39 /* CTSPGHealthRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPGHealthRes.h; sourceTree = "<group>"; };
-		76EDF5FB1B37F41700297A39 /* CTSPgSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPgSettings.h; sourceTree = "<group>"; };
-		76EDF5FC1B37F41700297A39 /* CTSPrepaidBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPrepaidBill.h; sourceTree = "<group>"; };
-		76EDF5FD1B37F41700297A39 /* CTSPrepaidUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPrepaidUpdate.h; sourceTree = "<group>"; };
-		76EDF5FE1B37F41700297A39 /* CTSProfileContactNewRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileContactNewRes.h; sourceTree = "<group>"; };
-		76EDF5FF1B37F41700297A39 /* CTSProfileContactRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileContactRes.h; sourceTree = "<group>"; };
-		76EDF6001B37F41700297A39 /* CTSProfileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayer.h; sourceTree = "<group>"; };
-		76EDF6011B37F41700297A39 /* CTSProfileLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayerConstants.h; sourceTree = "<group>"; };
-		76EDF6021B37F41700297A39 /* CTSProfilePaymentRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfilePaymentRes.h; sourceTree = "<group>"; };
-		76EDF6031B37F41700297A39 /* CTSProfilePrepaidRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfilePrepaidRes.h; sourceTree = "<group>"; };
-		76EDF6041B37F41700297A39 /* CTSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSResponse.h; sourceTree = "<group>"; };
-		76EDF6051B37F41700297A39 /* CTSRestCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCore.h; sourceTree = "<group>"; };
-		76EDF6061B37F41700297A39 /* CTSRestCoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreConstants.h; sourceTree = "<group>"; };
-		76EDF6071B37F41700297A39 /* CTSRestCoreRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreRequest.h; sourceTree = "<group>"; };
-		76EDF6081B37F41700297A39 /* CTSRestCoreResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreResponse.h; sourceTree = "<group>"; };
-		76EDF6091B37F41700297A39 /* CTSRestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestError.h; sourceTree = "<group>"; };
-		76EDF60A1B37F41700297A39 /* CTSRestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestObject.h; sourceTree = "<group>"; };
-		76EDF60B1B37F41700297A39 /* CTSRestPluginBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestPluginBase.h; sourceTree = "<group>"; };
-		76EDF60C1B37F41700297A39 /* CTSSignUpRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSSignUpRes.h; sourceTree = "<group>"; };
-		76EDF60D1B37F41700297A39 /* CTSSignupState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSSignupState.h; sourceTree = "<group>"; };
-		76EDF60E1B37F41700297A39 /* CTSTokenizedCardPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedCardPayment.h; sourceTree = "<group>"; };
-		76EDF60F1B37F41700297A39 /* CTSTokenizedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedPayment.h; sourceTree = "<group>"; };
-		76EDF6101B37F41700297A39 /* CTSTokenizedPaymentToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedPaymentToken.h; sourceTree = "<group>"; };
-		76EDF6111B37F41700297A39 /* CTSUpdateMobileNumberRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUpdateMobileNumberRes.h; sourceTree = "<group>"; };
-		76EDF6121B37F41700297A39 /* CTSUserAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUserAddress.h; sourceTree = "<group>"; };
-		76EDF6131B37F41700297A39 /* CTSUserDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUserDetails.h; sourceTree = "<group>"; };
-		76EDF6141B37F41700297A39 /* CTSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUtility.h; sourceTree = "<group>"; };
-		76EDF6151B37F41700297A39 /* GetProfileRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetProfileRes.h; sourceTree = "<group>"; };
-		76EDF6161B37F41700297A39 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
-		76EDF6171B37F41700297A39 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
-		76EDF6181B37F41700297A39 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
-		76EDF6191B37F41700297A39 /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
-		76EDF61A1B37F41700297A39 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
-		76EDF61B1B37F41700297A39 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
-		76EDF61C1B37F41700297A39 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
-		76EDF61D1B37F41700297A39 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
-		76EDF61E1B37F41700297A39 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
-		76EDF61F1B37F41700297A39 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
-		76EDF6201B37F41700297A39 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
-		76EDF6221B37F41700297A39 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
-		76EDF6231B37F41700297A39 /* OauthStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OauthStatus.h; sourceTree = "<group>"; };
-		76EDF6241B37F41700297A39 /* PayLoadWebviewDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayLoadWebviewDto.h; sourceTree = "<group>"; };
-		76EDF6251B37F41700297A39 /* RestLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestLayerConstants.h; sourceTree = "<group>"; };
-		76EDF6261B37F41700297A39 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
-		76EDF6271B37F41700297A39 /* UserLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogging.h; sourceTree = "<group>"; };
-		76EDF6281B37F41700297A39 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		76DD10101B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CitrusPay-iOS-SDK-Sample-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DD10141B6657D500AA3EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DD10151B6657D500AA3EC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76DD10171B6657D500AA3EC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76DD10181B6657D500AA3EC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76DD101E1B6657D500AA3EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76DD10201B6657D500AA3EC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		76DD10231B6657D500AA3EC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		76DD10291B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CitrusPay-iOS-SDK-Sample-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DD102E1B6657D500AA3EC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DD102F1B6657D500AA3EC8 /* CitrusPay_iOS_SDK_Sample_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitrusPay_iOS_SDK_Sample_AppTests.m; sourceTree = "<group>"; };
+		76DD103B1B6657F100AA3EC8 /* CitrusCashRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusCashRes.h; sourceTree = "<group>"; };
+		76DD103C1B6657F100AA3EC8 /* CitrusSdk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitrusSdk.h; sourceTree = "<group>"; };
+		76DD103D1B6657F100AA3EC8 /* CreditCard-Validator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CreditCard-Validator.h"; sourceTree = "<group>"; };
+		76DD103E1B6657F100AA3EC8 /* CTSAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAmount.h; sourceTree = "<group>"; };
+		76DD103F1B6657F100AA3EC8 /* CTSAuthLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAuthLayer.h; sourceTree = "<group>"; };
+		76DD10401B6657F100AA3EC8 /* CTSAuthLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSAuthLayerConstants.h; sourceTree = "<group>"; };
+		76DD10411B6657F100AA3EC8 /* CTSBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSBill.h; sourceTree = "<group>"; };
+		76DD10421B6657F100AA3EC8 /* CTSCashoutBankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCashoutBankAccount.h; sourceTree = "<group>"; };
+		76DD10431B6657F100AA3EC8 /* CTSCashoutBankAccountResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCashoutBankAccountResp.h; sourceTree = "<group>"; };
+		76DD10441B6657F100AA3EC8 /* CTSCashoutToBankRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCashoutToBankRes.h; sourceTree = "<group>"; };
+		76DD10451B6657F100AA3EC8 /* CTSContactUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSContactUpdate.h; sourceTree = "<group>"; };
+		76DD10461B6657F100AA3EC8 /* CTSCoreProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCoreProtocol.h; sourceTree = "<group>"; };
+		76DD10471B6657F100AA3EC8 /* CTSCreditCardOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSCreditCardOption.h; sourceTree = "<group>"; };
+		76DD10481B6657F100AA3EC8 /* CTSDebitCardOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSDebitCardOption.h; sourceTree = "<group>"; };
+		76DD10491B6657F100AA3EC8 /* CTSElectronicCardUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSElectronicCardUpdate.h; sourceTree = "<group>"; };
+		76DD104A1B6657F100AA3EC8 /* CTSError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSError.h; sourceTree = "<group>"; };
+		76DD104B1B6657F100AA3EC8 /* CTSGetBalanceRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSGetBalanceRes.h; sourceTree = "<group>"; };
+		76DD104C1B6657F100AA3EC8 /* CTSGuestCheckout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSGuestCheckout.h; sourceTree = "<group>"; };
+		76DD104D1B6657F100AA3EC8 /* CTSLinkRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSLinkRes.h; sourceTree = "<group>"; };
+		76DD104E1B6657F100AA3EC8 /* CTSLinkUserRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSLinkUserRes.h; sourceTree = "<group>"; };
+		76DD104F1B6657F100AA3EC8 /* CTSNetbankingOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNetbankingOption.h; sourceTree = "<group>"; };
+		76DD10501B6657F100AA3EC8 /* CTSNetBankingUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNetBankingUpdate.h; sourceTree = "<group>"; };
+		76DD10511B6657F100AA3EC8 /* CTSNewContactProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNewContactProfile.h; sourceTree = "<group>"; };
+		76DD10521B6657F100AA3EC8 /* CTSNewResponseDataProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNewResponseDataProfile.h; sourceTree = "<group>"; };
+		76DD10531B6657F100AA3EC8 /* CTSNewUserProfileReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSNewUserProfileReq.h; sourceTree = "<group>"; };
+		76DD10541B6657F100AA3EC8 /* CTSOauthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSOauthManager.h; sourceTree = "<group>"; };
+		76DD10551B6657F100AA3EC8 /* CTSOauthTokenRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSOauthTokenRes.h; sourceTree = "<group>"; };
+		76DD10561B6657F100AA3EC8 /* CTSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSObject.h; sourceTree = "<group>"; };
+		76DD10571B6657F100AA3EC8 /* CTSPaymentDetailUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentDetailUpdate.h; sourceTree = "<group>"; };
+		76DD10581B6657F100AA3EC8 /* CTSPaymentLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentLayer.h; sourceTree = "<group>"; };
+		76DD10591B6657F100AA3EC8 /* CTSPaymentLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentLayerConstants.h; sourceTree = "<group>"; };
+		76DD105A1B6657F100AA3EC8 /* CTSPaymentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentMode.h; sourceTree = "<group>"; };
+		76DD105B1B6657F100AA3EC8 /* CTSPaymentNetbankingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentNetbankingRequest.h; sourceTree = "<group>"; };
+		76DD105C1B6657F100AA3EC8 /* CTSPaymentOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentOption.h; sourceTree = "<group>"; };
+		76DD105D1B6657F100AA3EC8 /* CTSPaymentRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentRequest.h; sourceTree = "<group>"; };
+		76DD105E1B6657F100AA3EC8 /* CTSPaymentRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentRes.h; sourceTree = "<group>"; };
+		76DD105F1B6657F100AA3EC8 /* CTSPaymentToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentToken.h; sourceTree = "<group>"; };
+		76DD10601B6657F100AA3EC8 /* CTSPaymentTransactionRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentTransactionRes.h; sourceTree = "<group>"; };
+		76DD10611B6657F100AA3EC8 /* CTSPaymentUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentUpdate.h; sourceTree = "<group>"; };
+		76DD10621B6657F100AA3EC8 /* CTSPaymentWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPaymentWebViewController.h; sourceTree = "<group>"; };
+		76DD10631B6657F100AA3EC8 /* CTSPGHealthRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPGHealthRes.h; sourceTree = "<group>"; };
+		76DD10641B6657F100AA3EC8 /* CTSPgSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPgSettings.h; sourceTree = "<group>"; };
+		76DD10651B6657F100AA3EC8 /* CTSPrepaidBill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPrepaidBill.h; sourceTree = "<group>"; };
+		76DD10661B6657F100AA3EC8 /* CTSPrepaidUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSPrepaidUpdate.h; sourceTree = "<group>"; };
+		76DD10671B6657F100AA3EC8 /* CTSProfileContactNewRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileContactNewRes.h; sourceTree = "<group>"; };
+		76DD10681B6657F100AA3EC8 /* CTSProfileContactRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileContactRes.h; sourceTree = "<group>"; };
+		76DD10691B6657F100AA3EC8 /* CTSProfileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayer.h; sourceTree = "<group>"; };
+		76DD106A1B6657F100AA3EC8 /* CTSProfileLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfileLayerConstants.h; sourceTree = "<group>"; };
+		76DD106B1B6657F100AA3EC8 /* CTSProfilePaymentRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfilePaymentRes.h; sourceTree = "<group>"; };
+		76DD106C1B6657F100AA3EC8 /* CTSProfilePrepaidRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSProfilePrepaidRes.h; sourceTree = "<group>"; };
+		76DD106D1B6657F100AA3EC8 /* CTSResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSResponse.h; sourceTree = "<group>"; };
+		76DD106E1B6657F100AA3EC8 /* CTSRestCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCore.h; sourceTree = "<group>"; };
+		76DD106F1B6657F100AA3EC8 /* CTSRestCoreConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreConstants.h; sourceTree = "<group>"; };
+		76DD10701B6657F100AA3EC8 /* CTSRestCoreRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreRequest.h; sourceTree = "<group>"; };
+		76DD10711B6657F100AA3EC8 /* CTSRestCoreResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestCoreResponse.h; sourceTree = "<group>"; };
+		76DD10721B6657F100AA3EC8 /* CTSRestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestError.h; sourceTree = "<group>"; };
+		76DD10731B6657F100AA3EC8 /* CTSRestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestObject.h; sourceTree = "<group>"; };
+		76DD10741B6657F100AA3EC8 /* CTSRestPluginBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSRestPluginBase.h; sourceTree = "<group>"; };
+		76DD10751B6657F100AA3EC8 /* CTSSignUpRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSSignUpRes.h; sourceTree = "<group>"; };
+		76DD10761B6657F100AA3EC8 /* CTSSignupState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSSignupState.h; sourceTree = "<group>"; };
+		76DD10771B6657F100AA3EC8 /* CTSTokenizedCardPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedCardPayment.h; sourceTree = "<group>"; };
+		76DD10781B6657F100AA3EC8 /* CTSTokenizedPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedPayment.h; sourceTree = "<group>"; };
+		76DD10791B6657F100AA3EC8 /* CTSTokenizedPaymentToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSTokenizedPaymentToken.h; sourceTree = "<group>"; };
+		76DD107A1B6657F100AA3EC8 /* CTSUpdateMobileNumberRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUpdateMobileNumberRes.h; sourceTree = "<group>"; };
+		76DD107B1B6657F100AA3EC8 /* CTSUserAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUserAddress.h; sourceTree = "<group>"; };
+		76DD107C1B6657F100AA3EC8 /* CTSUserDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUserDetails.h; sourceTree = "<group>"; };
+		76DD107D1B6657F100AA3EC8 /* CTSUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSUtility.h; sourceTree = "<group>"; };
+		76DD107E1B6657F100AA3EC8 /* GetProfileRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetProfileRes.h; sourceTree = "<group>"; };
+		76DD107F1B6657F100AA3EC8 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		76DD10801B6657F100AA3EC8 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		76DD10811B6657F100AA3EC8 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		76DD10821B6657F100AA3EC8 /* JSONModel+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+CoreData.h"; sourceTree = "<group>"; };
+		76DD10831B6657F100AA3EC8 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		76DD10841B6657F100AA3EC8 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		76DD10851B6657F100AA3EC8 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		76DD10861B6657F100AA3EC8 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		76DD10871B6657F100AA3EC8 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		76DD10881B6657F100AA3EC8 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		76DD10891B6657F100AA3EC8 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		76DD108A1B6657F100AA3EC8 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		76DD108B1B6657F100AA3EC8 /* OauthStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OauthStatus.h; sourceTree = "<group>"; };
+		76DD108C1B6657F100AA3EC8 /* PayLoadWebviewDto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayLoadWebviewDto.h; sourceTree = "<group>"; };
+		76DD108D1B6657F100AA3EC8 /* RestLayerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestLayerConstants.h; sourceTree = "<group>"; };
+		76DD108E1B6657F100AA3EC8 /* UIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIUtility.h; sourceTree = "<group>"; };
+		76DD108F1B6657F100AA3EC8 /* UserLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogging.h; sourceTree = "<group>"; };
+		76DD10901B6657F100AA3EC8 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		76DD10A31B6657F100AA3EC8 /* libCitrusPayMobile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCitrusPayMobile.a; sourceTree = "<group>"; };
+		76DD10A51B665A0700AA3EC8 /* SampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleViewController.h; sourceTree = "<group>"; };
+		76DD10A61B665A0700AA3EC8 /* SampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleViewController.m; sourceTree = "<group>"; };
+		76DD10A71B665A0700AA3EC8 /* TestParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestParams.h; sourceTree = "<group>"; };
+		76DD10A81B665A0700AA3EC8 /* WebGatewayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebGatewayViewController.h; sourceTree = "<group>"; };
+		76DD10A91B665A0700AA3EC8 /* WebGatewayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebGatewayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		76EDF5461B37DC1800297A39 /* Frameworks */ = {
+		76DD100D1B6657D500AA3EC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76D49A161B3BF23E004393B7 /* libCitrusPayMobile.a in Frameworks */,
+				76DD10A41B6657F100AA3EC8 /* libCitrusPayMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76EDF55F1B37DC1900297A39 /* Frameworks */ = {
+		76DD10261B6657D500AA3EC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -154,174 +153,181 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		76EDF5401B37DC1800297A39 = {
+		76DD10071B6657D500AA3EC8 = {
 			isa = PBXGroup;
 			children = (
-				76EDF5D11B37F41700297A39 /* CitrusPayMobileDevKit */,
-				76EDF54B1B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App */,
-				76EDF5651B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests */,
-				76EDF54A1B37DC1800297A39 /* Products */,
+				76DD10391B6657F100AA3EC8 /* include */,
+				76DD10A31B6657F100AA3EC8 /* libCitrusPayMobile.a */,
+				76DD10121B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App */,
+				76DD102C1B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests */,
+				76DD10111B6657D500AA3EC8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		76EDF54A1B37DC1800297A39 /* Products */ = {
+		76DD10111B6657D500AA3EC8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76EDF5491B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App.app */,
-				76EDF5621B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests.xctest */,
+				76DD10101B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App.app */,
+				76DD10291B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76EDF54B1B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App */ = {
+		76DD10121B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App */ = {
 			isa = PBXGroup;
 			children = (
-				76EDF5CC1B37DD6F00297A39 /* TestParams.h */,
-				76EDF5531B37DC1800297A39 /* SampleViewController.h */,
-				76EDF5541B37DC1800297A39 /* SampleViewController.m */,
-				76EDF5CD1B37DD6F00297A39 /* WebGatewayViewController.h */,
-				76EDF5CE1B37DD6F00297A39 /* WebGatewayViewController.m */,
-				76EDF5501B37DC1800297A39 /* AppDelegate.h */,
-				76EDF5511B37DC1800297A39 /* AppDelegate.m */,
-				76EDF5561B37DC1800297A39 /* Main.storyboard */,
-				76EDF5591B37DC1900297A39 /* Images.xcassets */,
-				76EDF55B1B37DC1900297A39 /* LaunchScreen.xib */,
-				76EDF54C1B37DC1800297A39 /* Supporting Files */,
+				76DD10A71B665A0700AA3EC8 /* TestParams.h */,
+				76DD10A51B665A0700AA3EC8 /* SampleViewController.h */,
+				76DD10A61B665A0700AA3EC8 /* SampleViewController.m */,
+				76DD10A81B665A0700AA3EC8 /* WebGatewayViewController.h */,
+				76DD10A91B665A0700AA3EC8 /* WebGatewayViewController.m */,
+				76DD10171B6657D500AA3EC8 /* AppDelegate.h */,
+				76DD10181B6657D500AA3EC8 /* AppDelegate.m */,
+				76DD101D1B6657D500AA3EC8 /* Main.storyboard */,
+				76DD10201B6657D500AA3EC8 /* Images.xcassets */,
+				76DD10221B6657D500AA3EC8 /* LaunchScreen.xib */,
+				76DD10131B6657D500AA3EC8 /* Supporting Files */,
 			);
 			path = "CitrusPay-iOS-SDK-Sample-App";
 			sourceTree = "<group>";
 		};
-		76EDF54C1B37DC1800297A39 /* Supporting Files */ = {
+		76DD10131B6657D500AA3EC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76EDF54D1B37DC1800297A39 /* Info.plist */,
-				76EDF54E1B37DC1800297A39 /* main.m */,
+				76DD10141B6657D500AA3EC8 /* Info.plist */,
+				76DD10151B6657D500AA3EC8 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76EDF5651B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests */ = {
+		76DD102C1B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				76EDF5681B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m */,
-				76EDF5661B37DC1900297A39 /* Supporting Files */,
+				76DD102F1B6657D500AA3EC8 /* CitrusPay_iOS_SDK_Sample_AppTests.m */,
+				76DD102D1B6657D500AA3EC8 /* Supporting Files */,
 			);
 			path = "CitrusPay-iOS-SDK-Sample-AppTests";
 			sourceTree = "<group>";
 		};
-		76EDF5661B37DC1900297A39 /* Supporting Files */ = {
+		76DD102D1B6657D500AA3EC8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				76EDF5671B37DC1900297A39 /* Info.plist */,
+				76DD102E1B6657D500AA3EC8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		76EDF5D11B37F41700297A39 /* CitrusPayMobileDevKit */ = {
+		76DD10391B6657F100AA3EC8 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				76D49A151B3BF23E004393B7 /* libCitrusPayMobile.a */,
-				76EDF6281B37F41700297A39 /* Version.h */,
-				76EDF5D21B37F41700297A39 /* CitrusCashRes.h */,
-				76EDF5D31B37F41700297A39 /* CitrusSdk.h */,
-				76EDF5D41B37F41700297A39 /* CreditCard-Validator.h */,
-				76EDF5D51B37F41700297A39 /* CTSAmount.h */,
-				76EDF5D61B37F41700297A39 /* CTSAuthLayer.h */,
-				76EDF5D71B37F41700297A39 /* CTSAuthLayerConstants.h */,
-				76EDF5D81B37F41700297A39 /* CTSBill.h */,
-				76EDF5D91B37F41700297A39 /* CTSCashoutBankAccount.h */,
-				76EDF5DA1B37F41700297A39 /* CTSCashoutBankAccountResp.h */,
-				76EDF5DB1B37F41700297A39 /* CTSCashoutToBankRes.h */,
-				76EDF5DC1B37F41700297A39 /* CTSContactUpdate.h */,
-				76EDF5DD1B37F41700297A39 /* CTSCoreProtocol.h */,
-				76EDF5DE1B37F41700297A39 /* CTSCreditCardOption.h */,
-				76EDF5DF1B37F41700297A39 /* CTSDebitCardOption.h */,
-				76EDF5E01B37F41700297A39 /* CTSElectronicCardUpdate.h */,
-				76EDF5E11B37F41700297A39 /* CTSError.h */,
-				76EDF5E21B37F41700297A39 /* CTSGetBalanceRes.h */,
-				76EDF5E31B37F41700297A39 /* CTSGuestCheckout.h */,
-				76EDF5E41B37F41700297A39 /* CTSLinkRes.h */,
-				76EDF5E51B37F41700297A39 /* CTSLinkUserRes.h */,
-				76EDF5E61B37F41700297A39 /* CTSNetbankingOption.h */,
-				76EDF5E71B37F41700297A39 /* CTSNetBankingUpdate.h */,
-				76EDF5E81B37F41700297A39 /* CTSNewContactProfile.h */,
-				76EDF5E91B37F41700297A39 /* CTSNewResponseDataProfile.h */,
-				76EDF5EA1B37F41700297A39 /* CTSNewUserProfileReq.h */,
-				76EDF5EB1B37F41700297A39 /* CTSOauthManager.h */,
-				76EDF5EC1B37F41700297A39 /* CTSOauthTokenRes.h */,
-				76EDF5ED1B37F41700297A39 /* CTSObject.h */,
-				76EDF5EE1B37F41700297A39 /* CTSPaymentDetailUpdate.h */,
-				76EDF5EF1B37F41700297A39 /* CTSPaymentLayer.h */,
-				76EDF5F01B37F41700297A39 /* CTSPaymentLayerConstants.h */,
-				76EDF5F11B37F41700297A39 /* CTSPaymentMode.h */,
-				76EDF5F21B37F41700297A39 /* CTSPaymentNetbankingRequest.h */,
-				76EDF5F31B37F41700297A39 /* CTSPaymentOption.h */,
-				76EDF5F41B37F41700297A39 /* CTSPaymentRequest.h */,
-				76EDF5F51B37F41700297A39 /* CTSPaymentRes.h */,
-				76EDF5F61B37F41700297A39 /* CTSPaymentToken.h */,
-				76EDF5F71B37F41700297A39 /* CTSPaymentTransactionRes.h */,
-				76EDF5F81B37F41700297A39 /* CTSPaymentUpdate.h */,
-				76EDF5F91B37F41700297A39 /* CTSPaymentWebViewController.h */,
-				76EDF5FA1B37F41700297A39 /* CTSPGHealthRes.h */,
-				76EDF5FB1B37F41700297A39 /* CTSPgSettings.h */,
-				76EDF5FC1B37F41700297A39 /* CTSPrepaidBill.h */,
-				76EDF5FD1B37F41700297A39 /* CTSPrepaidUpdate.h */,
-				76EDF5FE1B37F41700297A39 /* CTSProfileContactNewRes.h */,
-				76EDF5FF1B37F41700297A39 /* CTSProfileContactRes.h */,
-				76EDF6001B37F41700297A39 /* CTSProfileLayer.h */,
-				76EDF6011B37F41700297A39 /* CTSProfileLayerConstants.h */,
-				76EDF6021B37F41700297A39 /* CTSProfilePaymentRes.h */,
-				76EDF6031B37F41700297A39 /* CTSProfilePrepaidRes.h */,
-				76EDF6041B37F41700297A39 /* CTSResponse.h */,
-				76EDF6051B37F41700297A39 /* CTSRestCore.h */,
-				76EDF6061B37F41700297A39 /* CTSRestCoreConstants.h */,
-				76EDF6071B37F41700297A39 /* CTSRestCoreRequest.h */,
-				76EDF6081B37F41700297A39 /* CTSRestCoreResponse.h */,
-				76EDF6091B37F41700297A39 /* CTSRestError.h */,
-				76EDF60A1B37F41700297A39 /* CTSRestObject.h */,
-				76EDF60B1B37F41700297A39 /* CTSRestPluginBase.h */,
-				76EDF60C1B37F41700297A39 /* CTSSignUpRes.h */,
-				76EDF60D1B37F41700297A39 /* CTSSignupState.h */,
-				76EDF60E1B37F41700297A39 /* CTSTokenizedCardPayment.h */,
-				76EDF60F1B37F41700297A39 /* CTSTokenizedPayment.h */,
-				76EDF6101B37F41700297A39 /* CTSTokenizedPaymentToken.h */,
-				76EDF6111B37F41700297A39 /* CTSUpdateMobileNumberRes.h */,
-				76EDF6121B37F41700297A39 /* CTSUserAddress.h */,
-				76EDF6131B37F41700297A39 /* CTSUserDetails.h */,
-				76EDF6141B37F41700297A39 /* CTSUtility.h */,
-				76EDF6151B37F41700297A39 /* GetProfileRes.h */,
-				76EDF6161B37F41700297A39 /* JSONAPI.h */,
-				76EDF6171B37F41700297A39 /* JSONHTTPClient.h */,
-				76EDF6181B37F41700297A39 /* JSONKeyMapper.h */,
-				76EDF6191B37F41700297A39 /* JSONModel+CoreData.h */,
-				76EDF61A1B37F41700297A39 /* JSONModel+networking.h */,
-				76EDF61B1B37F41700297A39 /* JSONModel.h */,
-				76EDF61C1B37F41700297A39 /* JSONModelArray.h */,
-				76EDF61D1B37F41700297A39 /* JSONModelClassProperty.h */,
-				76EDF61E1B37F41700297A39 /* JSONModelError.h */,
-				76EDF61F1B37F41700297A39 /* JSONModelLib.h */,
-				76EDF6201B37F41700297A39 /* JSONValueTransformer.h */,
-				76EDF6221B37F41700297A39 /* NSArray+JSONModel.h */,
-				76EDF6231B37F41700297A39 /* OauthStatus.h */,
-				76EDF6241B37F41700297A39 /* PayLoadWebviewDto.h */,
-				76EDF6251B37F41700297A39 /* RestLayerConstants.h */,
-				76EDF6261B37F41700297A39 /* UIUtility.h */,
-				76EDF6271B37F41700297A39 /* UserLogging.h */,
+				76DD103A1B6657F100AA3EC8 /* CitrusPayMobile */,
 			);
-			name = CitrusPayMobileDevKit;
-			path = ../CitrusPayMobileDevKit;
+			path = include;
+			sourceTree = "<group>";
+		};
+		76DD103A1B6657F100AA3EC8 /* CitrusPayMobile */ = {
+			isa = PBXGroup;
+			children = (
+				76DD103B1B6657F100AA3EC8 /* CitrusCashRes.h */,
+				76DD103C1B6657F100AA3EC8 /* CitrusSdk.h */,
+				76DD103D1B6657F100AA3EC8 /* CreditCard-Validator.h */,
+				76DD103E1B6657F100AA3EC8 /* CTSAmount.h */,
+				76DD103F1B6657F100AA3EC8 /* CTSAuthLayer.h */,
+				76DD10401B6657F100AA3EC8 /* CTSAuthLayerConstants.h */,
+				76DD10411B6657F100AA3EC8 /* CTSBill.h */,
+				76DD10421B6657F100AA3EC8 /* CTSCashoutBankAccount.h */,
+				76DD10431B6657F100AA3EC8 /* CTSCashoutBankAccountResp.h */,
+				76DD10441B6657F100AA3EC8 /* CTSCashoutToBankRes.h */,
+				76DD10451B6657F100AA3EC8 /* CTSContactUpdate.h */,
+				76DD10461B6657F100AA3EC8 /* CTSCoreProtocol.h */,
+				76DD10471B6657F100AA3EC8 /* CTSCreditCardOption.h */,
+				76DD10481B6657F100AA3EC8 /* CTSDebitCardOption.h */,
+				76DD10491B6657F100AA3EC8 /* CTSElectronicCardUpdate.h */,
+				76DD104A1B6657F100AA3EC8 /* CTSError.h */,
+				76DD104B1B6657F100AA3EC8 /* CTSGetBalanceRes.h */,
+				76DD104C1B6657F100AA3EC8 /* CTSGuestCheckout.h */,
+				76DD104D1B6657F100AA3EC8 /* CTSLinkRes.h */,
+				76DD104E1B6657F100AA3EC8 /* CTSLinkUserRes.h */,
+				76DD104F1B6657F100AA3EC8 /* CTSNetbankingOption.h */,
+				76DD10501B6657F100AA3EC8 /* CTSNetBankingUpdate.h */,
+				76DD10511B6657F100AA3EC8 /* CTSNewContactProfile.h */,
+				76DD10521B6657F100AA3EC8 /* CTSNewResponseDataProfile.h */,
+				76DD10531B6657F100AA3EC8 /* CTSNewUserProfileReq.h */,
+				76DD10541B6657F100AA3EC8 /* CTSOauthManager.h */,
+				76DD10551B6657F100AA3EC8 /* CTSOauthTokenRes.h */,
+				76DD10561B6657F100AA3EC8 /* CTSObject.h */,
+				76DD10571B6657F100AA3EC8 /* CTSPaymentDetailUpdate.h */,
+				76DD10581B6657F100AA3EC8 /* CTSPaymentLayer.h */,
+				76DD10591B6657F100AA3EC8 /* CTSPaymentLayerConstants.h */,
+				76DD105A1B6657F100AA3EC8 /* CTSPaymentMode.h */,
+				76DD105B1B6657F100AA3EC8 /* CTSPaymentNetbankingRequest.h */,
+				76DD105C1B6657F100AA3EC8 /* CTSPaymentOption.h */,
+				76DD105D1B6657F100AA3EC8 /* CTSPaymentRequest.h */,
+				76DD105E1B6657F100AA3EC8 /* CTSPaymentRes.h */,
+				76DD105F1B6657F100AA3EC8 /* CTSPaymentToken.h */,
+				76DD10601B6657F100AA3EC8 /* CTSPaymentTransactionRes.h */,
+				76DD10611B6657F100AA3EC8 /* CTSPaymentUpdate.h */,
+				76DD10621B6657F100AA3EC8 /* CTSPaymentWebViewController.h */,
+				76DD10631B6657F100AA3EC8 /* CTSPGHealthRes.h */,
+				76DD10641B6657F100AA3EC8 /* CTSPgSettings.h */,
+				76DD10651B6657F100AA3EC8 /* CTSPrepaidBill.h */,
+				76DD10661B6657F100AA3EC8 /* CTSPrepaidUpdate.h */,
+				76DD10671B6657F100AA3EC8 /* CTSProfileContactNewRes.h */,
+				76DD10681B6657F100AA3EC8 /* CTSProfileContactRes.h */,
+				76DD10691B6657F100AA3EC8 /* CTSProfileLayer.h */,
+				76DD106A1B6657F100AA3EC8 /* CTSProfileLayerConstants.h */,
+				76DD106B1B6657F100AA3EC8 /* CTSProfilePaymentRes.h */,
+				76DD106C1B6657F100AA3EC8 /* CTSProfilePrepaidRes.h */,
+				76DD106D1B6657F100AA3EC8 /* CTSResponse.h */,
+				76DD106E1B6657F100AA3EC8 /* CTSRestCore.h */,
+				76DD106F1B6657F100AA3EC8 /* CTSRestCoreConstants.h */,
+				76DD10701B6657F100AA3EC8 /* CTSRestCoreRequest.h */,
+				76DD10711B6657F100AA3EC8 /* CTSRestCoreResponse.h */,
+				76DD10721B6657F100AA3EC8 /* CTSRestError.h */,
+				76DD10731B6657F100AA3EC8 /* CTSRestObject.h */,
+				76DD10741B6657F100AA3EC8 /* CTSRestPluginBase.h */,
+				76DD10751B6657F100AA3EC8 /* CTSSignUpRes.h */,
+				76DD10761B6657F100AA3EC8 /* CTSSignupState.h */,
+				76DD10771B6657F100AA3EC8 /* CTSTokenizedCardPayment.h */,
+				76DD10781B6657F100AA3EC8 /* CTSTokenizedPayment.h */,
+				76DD10791B6657F100AA3EC8 /* CTSTokenizedPaymentToken.h */,
+				76DD107A1B6657F100AA3EC8 /* CTSUpdateMobileNumberRes.h */,
+				76DD107B1B6657F100AA3EC8 /* CTSUserAddress.h */,
+				76DD107C1B6657F100AA3EC8 /* CTSUserDetails.h */,
+				76DD107D1B6657F100AA3EC8 /* CTSUtility.h */,
+				76DD107E1B6657F100AA3EC8 /* GetProfileRes.h */,
+				76DD107F1B6657F100AA3EC8 /* JSONAPI.h */,
+				76DD10801B6657F100AA3EC8 /* JSONHTTPClient.h */,
+				76DD10811B6657F100AA3EC8 /* JSONKeyMapper.h */,
+				76DD10821B6657F100AA3EC8 /* JSONModel+CoreData.h */,
+				76DD10831B6657F100AA3EC8 /* JSONModel+networking.h */,
+				76DD10841B6657F100AA3EC8 /* JSONModel.h */,
+				76DD10851B6657F100AA3EC8 /* JSONModelArray.h */,
+				76DD10861B6657F100AA3EC8 /* JSONModelClassProperty.h */,
+				76DD10871B6657F100AA3EC8 /* JSONModelError.h */,
+				76DD10881B6657F100AA3EC8 /* JSONModelLib.h */,
+				76DD10891B6657F100AA3EC8 /* JSONValueTransformer.h */,
+				76DD108A1B6657F100AA3EC8 /* NSArray+JSONModel.h */,
+				76DD108B1B6657F100AA3EC8 /* OauthStatus.h */,
+				76DD108C1B6657F100AA3EC8 /* PayLoadWebviewDto.h */,
+				76DD108D1B6657F100AA3EC8 /* RestLayerConstants.h */,
+				76DD108E1B6657F100AA3EC8 /* UIUtility.h */,
+				76DD108F1B6657F100AA3EC8 /* UserLogging.h */,
+				76DD10901B6657F100AA3EC8 /* Version.h */,
+			);
+			path = CitrusPayMobile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76EDF5481B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App */ = {
+		76DD100F1B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76EDF56C1B37DC1900297A39 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-App" */;
+			buildConfigurationList = 76DD10331B6657D500AA3EC8 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-App" */;
 			buildPhases = (
-				76EDF5451B37DC1800297A39 /* Sources */,
-				76EDF5461B37DC1800297A39 /* Frameworks */,
-				76EDF5471B37DC1800297A39 /* Resources */,
+				76DD100C1B6657D500AA3EC8 /* Sources */,
+				76DD100D1B6657D500AA3EC8 /* Frameworks */,
+				76DD100E1B6657D500AA3EC8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -329,46 +335,47 @@
 			);
 			name = "CitrusPay-iOS-SDK-Sample-App";
 			productName = "CitrusPay-iOS-SDK-Sample-App";
-			productReference = 76EDF5491B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App.app */;
+			productReference = 76DD10101B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App.app */;
 			productType = "com.apple.product-type.application";
 		};
-		76EDF5611B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests */ = {
+		76DD10281B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76EDF56F1B37DC1900297A39 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-AppTests" */;
+			buildConfigurationList = 76DD10361B6657D500AA3EC8 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-AppTests" */;
 			buildPhases = (
-				76EDF55E1B37DC1900297A39 /* Sources */,
-				76EDF55F1B37DC1900297A39 /* Frameworks */,
-				76EDF5601B37DC1900297A39 /* Resources */,
+				76DD10251B6657D500AA3EC8 /* Sources */,
+				76DD10261B6657D500AA3EC8 /* Frameworks */,
+				76DD10271B6657D500AA3EC8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				76EDF5641B37DC1900297A39 /* PBXTargetDependency */,
+				76DD102B1B6657D500AA3EC8 /* PBXTargetDependency */,
 			);
 			name = "CitrusPay-iOS-SDK-Sample-AppTests";
 			productName = "CitrusPay-iOS-SDK-Sample-AppTests";
-			productReference = 76EDF5621B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests.xctest */;
+			productReference = 76DD10291B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		76EDF5411B37DC1800297A39 /* Project object */ = {
+		76DD10081B6657D500AA3EC8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = CitrusPay;
 				TargetAttributes = {
-					76EDF5481B37DC1800297A39 = {
-						CreatedOnToolsVersion = 6.3;
+					76DD100F1B6657D500AA3EC8 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = BF75J23QJ2;
 					};
-					76EDF5611B37DC1900297A39 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 76EDF5481B37DC1800297A39;
+					76DD10281B6657D500AA3EC8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 76DD100F1B6657D500AA3EC8;
 					};
 				};
 			};
-			buildConfigurationList = 76EDF5441B37DC1800297A39 /* Build configuration list for PBXProject "CitrusPay-iOS-SDK-Sample-App" */;
+			buildConfigurationList = 76DD100B1B6657D500AA3EC8 /* Build configuration list for PBXProject "CitrusPay-iOS-SDK-Sample-App" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -376,29 +383,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 76EDF5401B37DC1800297A39;
-			productRefGroup = 76EDF54A1B37DC1800297A39 /* Products */;
+			mainGroup = 76DD10071B6657D500AA3EC8;
+			productRefGroup = 76DD10111B6657D500AA3EC8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76EDF5481B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App */,
-				76EDF5611B37DC1900297A39 /* CitrusPay-iOS-SDK-Sample-AppTests */,
+				76DD100F1B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App */,
+				76DD10281B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-AppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		76EDF5471B37DC1800297A39 /* Resources */ = {
+		76DD100E1B6657D500AA3EC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EDF5581B37DC1800297A39 /* Main.storyboard in Resources */,
-				76EDF55D1B37DC1900297A39 /* LaunchScreen.xib in Resources */,
-				76EDF55A1B37DC1900297A39 /* Images.xcassets in Resources */,
+				76DD101F1B6657D500AA3EC8 /* Main.storyboard in Resources */,
+				76DD10241B6657D500AA3EC8 /* LaunchScreen.xib in Resources */,
+				76DD10211B6657D500AA3EC8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76EDF5601B37DC1900297A39 /* Resources */ = {
+		76DD10271B6657D500AA3EC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,49 +415,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76EDF5451B37DC1800297A39 /* Sources */ = {
+		76DD100C1B6657D500AA3EC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EDF5CF1B37DD6F00297A39 /* WebGatewayViewController.m in Sources */,
-				76EDF5551B37DC1800297A39 /* SampleViewController.m in Sources */,
-				76EDF5521B37DC1800297A39 /* AppDelegate.m in Sources */,
-				76EDF54F1B37DC1800297A39 /* main.m in Sources */,
+				76DD10191B6657D500AA3EC8 /* AppDelegate.m in Sources */,
+				76DD10AB1B665A0700AA3EC8 /* WebGatewayViewController.m in Sources */,
+				76DD10AA1B665A0700AA3EC8 /* SampleViewController.m in Sources */,
+				76DD10161B6657D500AA3EC8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76EDF55E1B37DC1900297A39 /* Sources */ = {
+		76DD10251B6657D500AA3EC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76EDF5D01B37DD6F00297A39 /* WebGatewayViewController.m in Sources */,
-				76EDF5691B37DC1900297A39 /* CitrusPay_iOS_SDK_Sample_AppTests.m in Sources */,
+				76DD10301B6657D500AA3EC8 /* CitrusPay_iOS_SDK_Sample_AppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		76EDF5641B37DC1900297A39 /* PBXTargetDependency */ = {
+		76DD102B1B6657D500AA3EC8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76EDF5481B37DC1800297A39 /* CitrusPay-iOS-SDK-Sample-App */;
-			targetProxy = 76EDF5631B37DC1900297A39 /* PBXContainerItemProxy */;
+			target = 76DD100F1B6657D500AA3EC8 /* CitrusPay-iOS-SDK-Sample-App */;
+			targetProxy = 76DD102A1B6657D500AA3EC8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		76EDF5561B37DC1800297A39 /* Main.storyboard */ = {
+		76DD101D1B6657D500AA3EC8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				76EDF5571B37DC1800297A39 /* Base */,
+				76DD101E1B6657D500AA3EC8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		76EDF55B1B37DC1900297A39 /* LaunchScreen.xib */ = {
+		76DD10221B6657D500AA3EC8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				76EDF55C1B37DC1900297A39 /* Base */,
+				76DD10231B6657D500AA3EC8 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -458,7 +464,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		76EDF56A1B37DC1900297A39 /* Debug */ = {
+		76DD10311B6657D500AA3EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -494,14 +500,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		76EDF56B1B37DC1900297A39 /* Release */ = {
+		76DD10321B6657D500AA3EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -531,54 +537,44 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		76EDF56D1B37DC1900297A39 /* Debug */ = {
+		76DD10341B6657D500AA3EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CitrusPay-iOS-SDK-Sample-App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
-					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
-					/Users/mukeshpatil/MyWork/SDK/2015/June/23/lib23/CitrusPayMobileDevKit,
+					"$(PROJECT_DIR)",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		76EDF56E1B37DC1900297A39 /* Release */ = {
+		76DD10351B6657D500AA3EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CitrusPay-iOS-SDK-Sample-App/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
-					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
-					/Users/mukeshpatil/MyWork/SDK/2015/June/23/lib23/CitrusPayMobileDevKit,
+					"$(PROJECT_DIR)",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		76EDF5701B37DC1900297A39 /* Debug */ = {
+		76DD10371B6657D500AA3EC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -592,17 +588,12 @@
 				);
 				INFOPLIST_FILE = "CitrusPay-iOS-SDK-Sample-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
-					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitrusPay-iOS-SDK-Sample-App.app/CitrusPay-iOS-SDK-Sample-App";
 			};
 			name = Debug;
 		};
-		76EDF5711B37DC1900297A39 /* Release */ = {
+		76DD10381B6657D500AA3EC8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,11 +603,6 @@
 				);
 				INFOPLIST_FILE = "CitrusPay-iOS-SDK-Sample-AppTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"/Users/mukeshpatil/MyWork/SDK/2015/June/22/CitrusPay-iOS-SDK/CitrusPayMobileDevKit",
-					/Users/mukeshpatil/MyWork/SDK/2015/June/22/mynew/StaticLib22/CitrusPayMobileDevKit,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CitrusPay-iOS-SDK-Sample-App.app/CitrusPay-iOS-SDK-Sample-App";
 			};
@@ -625,34 +611,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76EDF5441B37DC1800297A39 /* Build configuration list for PBXProject "CitrusPay-iOS-SDK-Sample-App" */ = {
+		76DD100B1B6657D500AA3EC8 /* Build configuration list for PBXProject "CitrusPay-iOS-SDK-Sample-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76EDF56A1B37DC1900297A39 /* Debug */,
-				76EDF56B1B37DC1900297A39 /* Release */,
+				76DD10311B6657D500AA3EC8 /* Debug */,
+				76DD10321B6657D500AA3EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76EDF56C1B37DC1900297A39 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-App" */ = {
+		76DD10331B6657D500AA3EC8 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76EDF56D1B37DC1900297A39 /* Debug */,
-				76EDF56E1B37DC1900297A39 /* Release */,
+				76DD10341B6657D500AA3EC8 /* Debug */,
+				76DD10351B6657D500AA3EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76EDF56F1B37DC1900297A39 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-AppTests" */ = {
+		76DD10361B6657D500AA3EC8 /* Build configuration list for PBXNativeTarget "CitrusPay-iOS-SDK-Sample-AppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				76EDF5701B37DC1900297A39 /* Debug */,
-				76EDF5711B37DC1900297A39 /* Release */,
+				76DD10371B6657D500AA3EC8 /* Debug */,
+				76DD10381B6657D500AA3EC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 76EDF5411B37DC1800297A39 /* Project object */;
+	rootObject = 76DD10081B6657D500AA3EC8 /* Project object */;
 }
