@@ -2,8 +2,8 @@
 //  main.m
 //  CitrusPay-iOS-SDK-Sample-App
 //
-//  Created by Mukesh Patil on 27/07/15.
-//  Copyright (c) 2015 CitrusPay. All rights reserved.
+//  Created by Mukesh Patil on 12/21/15.
+//  Copyright © 2015 Mukesh Patil. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
